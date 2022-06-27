@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
 :root {
    --black: rgb(0, 0, 0);
    --white: white;
@@ -8,13 +10,14 @@
 
 html {
    scroll-behavior: smooth;
-   scroll-padding-top: 50px;
+   scroll-padding-top: 60px;
 }
 
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: Outfit, sans-serif;
 }
 
 img:not(.logo) {
@@ -42,6 +45,8 @@ header {
    background-position: center;
    background-size: cover;
    height: 100vh;
+   display: grid;
+   place-items: center;
 }
 
 nav {
@@ -95,7 +100,7 @@ header img {
 }
 
 .header-links ul li {
-   padding-bottom: 10px;
+   padding-bottom: 25px;
 }
 
 .header-links ul li a {
@@ -107,6 +112,26 @@ header img {
 .header-links ul li a:hover {
    color: var(--gray);
    transition: var(--transition);
+}
+
+.header-text {
+   color: white;
+   text-align: center;
+   line-height: 1.35;
+   letter-spacing: 1.25;
+   padding: 0 15px;
+}
+
+.header-text h1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.header-text p {
+   font-weight: 300;
 }
 
 .hide {
