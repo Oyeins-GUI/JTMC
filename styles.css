@@ -1,0 +1,136 @@
+:root {
+   --black: rgb(0, 0, 0);
+   --white: white;
+   --gray: gray;
+   --transparent: transparent;
+   --transition: all .3s ease;
+}
+
+html {
+   scroll-behavior: smooth;
+   scroll-padding-top: 50px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+img:not(.logo) {
+   width: 100%;
+}
+
+img {
+   display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+   letter-spacing: 1.25;
+   line-height: 1.25;
+   text-transform: uppercase;
+}
+
+header {
+   background-color: rgba(0, 0, 0, .9);
+   background-image: url(./images/leaves.jpg);
+   background-blend-mode: multiply;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background: rgb(255, 255, 255);
+}
+
+header li {
+   list-style: none;
+}
+
+header img {
+   width: 40px;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+}
+
+.nav-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   padding: 5px 25px;
+}
+
+.nav-header button {
+   background: var(--transparent);
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+   border: var(--transparent);
+   outline: none;
+   cursor: pointer;
+   width: 50px;
+   aspect-ratio: 1/1;
+}
+
+.social-media-links {
+   display: none;
+}
+
+.header-links {
+   margin-left: 25px;
+}
+
+.header-links ul {
+   padding-top: 10px;
+}
+
+.header-links ul li {
+   padding-bottom: 10px;
+}
+
+.header-links ul li a {
+   color: black;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.header-links ul li a:hover {
+   color: var(--gray);
+   transition: var(--transition);
+}
+
+.hide {
+   display: none;
+}
+
+section {
+   color: white;
+   height: 100vh;
+}
+
+section h1 {
+   text-align: center;
+}
+
+#about {
+   color: var(--black);
+}
+
+#events {
+   background: var(--gray);
+}
+
+.transparent {
+   background: transparent;
+   color: white;
+}
