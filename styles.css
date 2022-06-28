@@ -189,6 +189,7 @@ Nav
 */
 
 nav {
+   width: 100%;
    max-width: var(--max-width);
    position: fixed;
    background: var(--clr-white);
