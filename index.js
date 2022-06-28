@@ -1,16 +1,13 @@
-const headerLinks = document.querySelector(".header-links");
-const toggleBtn = document.querySelector(".toggle-btn");
-const links = document.querySelectorAll(".link");
-const date = document.querySelector(".date");
+const navLinks = document.querySelector(".links");
+const navToggle = document.querySelector(".nav-toggle");
+const links = document.querySelectorAll(".links");
 
-date.innerHTML = new Date().getFullYear();
-
-toggleBtn.addEventListener("click", () => {
-   headerLinks.classList.toggle("hide");
+navToggle.addEventListener("click", () => {
+   navLinks.classList.toggle("show-links");
 });
 
-links.forEach((link) => {
+links.forEach(function (link) {
    link.addEventListener("click", () => {
-      headerLinks.classList.toggle("hide");
+      navLinks.classList.toggle("show-links");
    });
-});
+})

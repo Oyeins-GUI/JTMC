@@ -13,51 +13,70 @@
 
 <body>
    <!-- header -->
-   <header class="header" id="home">
-      <nav class="nav">
-         <div class="nav-header">
-            <img src="./images/jtmc background.jpg" alt="logo" class="logo">
-            <button class="toggle-btn">
-               <i class="fa-solid fa-bars" style="color: black !important; font-weight: bold; font-size: 18px;"></i>
-            </button>
-            <div class="social-media-links">
-               <img src="" alt="facebook" class="header-icon">
-               <img src="" alt="instagram" class="header-icon">
-               <img src="" alt="twitter" class="header-icon">
+   <header role="heading" id="home">
+      <nav>
+         <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+               <img src="./images/jtmc background.jpg" alt="logo" class="logo">
+               <button class="nav-toggle">
+                  <i class="fas fa-bars" style="color: black; font-size: 1.25rem; font-weight: bold;"></i>
+               </button>
             </div>
-         </div>
-
-         <div class="header-links hide">
-            <ul>
-               <li class="link"><a href="#home">Home</a></li>
-               <li class="link"><a href="#about">About</a></li>
-               <li class="link"><a href="#events">Events</a></li>
+            <!-- links -->
+            <ul class="links">
+               <li><a href="#home" class="link">home</a></li>
+               <li><a href="#about" class="link">about</a></li>
+               <li><a href="#events" class="link">events</a></li>
+               <li><a href="#events" class="link">events</a></li>
+            </ul>
+            <!-- social media -->
+            <ul class="social-icons">
+               <li>
+                  <a href="https://www.facebook.com">
+                     <i class="fas fa-facebook"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com">
+                     <i class="fas fa-facebook"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.twitter.com">
+                     <i class="fas fa-facebook"></i>
+                  </a>
+               </li>
             </ul>
          </div>
       </nav>
-
-      <div class="header-text">
-         <h1>JTMC</h1>
-         <p>
-            I am part and parcel Jesus' family, Saved, Redeemed and Justified by His Blood, I am the salt and light of
-            the world, My voice breath life to men through Christ that lives in me, I am an Ambassador of Christ on
-            earth empowered by the Holy Spirit and commissioned for soul winning through the Gospel of Life in the Holy
-            Trinity. Amen.
-         </p>
+      <!-- banner -->
+      <div class="banner">
+         <div class="container">
+            <h1>JTMC</h1>
+            <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo culpa accusamus atque ullam eum repellat
+               tempore placeat corrupti minus quas? Cupiditate quos perferendis ullam officiis corporis, autem itaque
+               quia
+               nisi necessitatibus deserunt deleniti impedit numquam nesciunt excepturi earum quo quam sunt est harum
+               pariatur ab a incidunt! Iure, cumque nostrum.
+            </p>
+         </div>
       </div>
    </header>
    <!-- end of header -->
 
-   <!-- sections -->
-   <section class="section" id="about">
-      <h1>about us</h1>
-   </section>
-   <section class="section" id="events">
-      <h1>events</h1>
-   </section>
-   <!-- end of section -->
+   <main role="main">
+      <section class="section" id="about">
+         <h1>about us</h1>
+      </section>
 
-   <footer>
+      <section class="section" id="events">
+         <h1>events</h1>
+      </section>
+   </main>
+
+   <footer role="doc-footnote">
       <p>Copyright &copy; <span class="date">2022</span> JTMC Universal. All right reserved.</p>
    </footer>
    <script src="index.js"></script>
