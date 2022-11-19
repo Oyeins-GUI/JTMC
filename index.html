@@ -1,83 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/jpg"
+            sizes="32x32"
+            href="./images/mass-choir-logo.png"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <script
+            src="https://kit.fontawesome.com/87541cc848.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Jesus Team Mass Choir JTMC</title>
+    </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="icon" type="image/jpg" sizes="32x32" href="./images/leaves.jpg">
-   <link rel="stylesheet" href="styles.css">
-   <script src="https://kit.fontawesome.com/87541cc848.js" crossorigin="anonymous"></script>
-   <title>JTMC | Jesus Team Mass Choir</title>
-</head>
-
-<body>
-   <!-- header -->
-   <header role="heading" id="home">
-      <nav>
-         <div class="nav-center">
-            <!-- nav header -->
-            <div class="nav-header">
-               <img src="./images/jtmc background.jpg" alt="logo" class="logo">
-               <button class="nav-toggle">
-                  <i class="fas fa-bars" style="color: black; font-size: 1.25rem; font-weight: bold;"></i>
-               </button>
+    <body>
+        <!-- header -->
+        <header role="heading" class="header" id="home">
+            <nav class="nav">
+                <div class="nav-center">
+                    <!-- nav header -->
+                    <div class="nav-header">
+                        <img src="./images/mass-choir-logo.png"" alt="logo"
+                        class="logo"/>
+                        <button
+                            class="nav-toggle"
+                            aria-controls="header-links"
+                            aria-expanded="false"
+                        >
+                            <svg
+                                class="hamburger"
+                                viewBox="0 0 100 100"
+                                width="100%"
+                                height="100%"
+                            >
+                                <rect
+                                    class="line top"
+                                    width="80"
+                                    height="10"
+                                    x="10"
+                                    y="22.5"
+                                    rx="5"
+                                ></rect>
+                                <rect
+                                    class="line middle"
+                                    width="80"
+                                    height="10"
+                                    x="10"
+                                    y="45"
+                                    rx="5"
+                                ></rect>
+                                <rect
+                                    class="line bottom"
+                                    width="80"
+                                    height="10"
+                                    x="10"
+                                    y="67.5"
+                                    rx="5"
+                                ></rect>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- links -->
+                    <ul class="links">
+                        <li><a href="#home" class="link">home</a></li>
+                        <li><a href="#about" class="link">about</a></li>
+                        <li><a href="#events" class="link">events</a></li>
+                    </ul>
+                    <!-- social media -->
+                    <ul class="social-icons">
+                        <li>
+                            <a
+                                href="https://www.facebook.com/profile.php?id=100063690858660"
+                                target="_blank"
+                            >
+                                <i
+                                    class="fa fa-facebook-square"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.youtube.com/watch?v=VFJGwEbeZEQ&t=150s"
+                                target="_blank"
+                            >
+                                <i
+                                    class="fa fa-youtube-play"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com">
+                                <i
+                                    class="fa fa-instagram"
+                                    aria-hidden="true"
+                                ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- banner -->
+            <div class="banner">
+                <div class="container">
+                    <h1 class="choir-name choir-name-large">JTMC</h1>
+                    <p class="creed">
+                        I am part and parcel of Jesus' family, Saved, Redeemed
+                        and Justified by His Blood, I am the salt and light of
+                        the word, My voice birth life to men through Christ that
+                        lives in me, I am an Ambassador of Christ on earth
+                        empowered by the Holy Spirit and commissioned for soul
+                        winning through the Gospel of the Holy Trinity. Amen.
+                    </p>
+                </div>
             </div>
-            <!-- links -->
-            <ul class="links">
-               <li><a href="#home" class="link">home</a></li>
-               <li><a href="#about" class="link">about</a></li>
-               <li><a href="#events" class="link">events</a></li>
-               <li><a href="#events" class="link">events</a></li>
-            </ul>
-            <!-- social media -->
-            <ul class="social-icons">
-               <li>
-                  <a href="https://www.facebook.com">
-                     <i class="fas fa-facebook"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.youtube.com">
-                     <i class="fas fa-facebook"></i>
-                  </a>
-               </li>
-               <li>
-                  <a href="https://www.twitter.com">
-                     <i class="fas fa-facebook"></i>
-                  </a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <!-- banner -->
-      <div class="banner">
-         <div class="container">
-            <h1>JTMC</h1>
+        </header>
+        <!-- end of header -->
+
+        <main role="main">
+            <section class="section" id="about">
+                <h2 class="section-header">about us</h2>
+                <div class="about">
+                    <img
+                        src="./images/about-img.jpg"
+                        class="about-img"
+                        alt="Choir-img"
+                    />
+                    <p>
+                        This mass choir is a non-denominational and
+                        interdenominational body of CHRIST. It is birth out of
+                        GOD’S personal revelation and purpose of gathering all
+                        people of the earth to come to the true knowledge of His
+                        Son, Jesus Christ. The organization is a platform in
+                        which youths and teenagers, especially, explore their
+                        potentials to the glory of GOD.
+                    </p>
+                    <h3>What kind of genre music do you do?</h3>
+                    <p>
+                        We do all form of Gospel Music ranging from Afro,
+                        Classics, POP, Blues, RnB etc. The misconceptionmusic is
+                        this: men tends to look at the beat instead of the
+                        lyrics. It's the lyrics that tells to wmusic is for God
+                        or the devil.
+                    </p>
+                    <h3>IS THE TEAM A CHURCH AND LIMITED TO MUSIC ALONE?</h3>
+                    <p>
+                        The organization is, will not be and cannot be
+                        <b>"CHURCH"</b>. It is a team of believers congregating
+                        tthe name of Jesus. Music being her major tool of
+                        operation; does not limit her as she also spreother
+                        areas as: drama and chorography.
+                    </p>
+                </div>
+            </section>
+
+            <section class="section" id="events">
+                <h2 class="section-header">events</h2>
+                <div class="events">
+                    <div class="event-tile">
+                        <a
+                            href="https://www.youtube.com/watch?v=VFJGwEbeZEQ&t=150s"
+                            target="_blank"
+                        >
+                            <img
+                                src="./images/LKJ PROJECT.jpg"
+                                alt="event-img"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer role="doc-footnote">
+            <div class="footer-icons">
+                <h3 class="choir-name">JTMC</h3>
+                <div class="icons">
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100063690858660"
+                        target="_blank"
+                    >
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+                    <a
+                        href="https://www.youtube.com/watch?v=VFJGwEbeZEQ&t=150s"
+                        target="_blank"
+                    >
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
             <p>
-               I am part and parcel of Jesus' family, Saved, Redeemed and Justified by His Blood, I am the salt and
-               light of the word, My voice breath life to men through Christ that lives in me, I am an Ambassador of
-               Christ on earth empowered by the Holy Spirit through the Holy Trinity. Amen.
+                Copyright &copy; <span id="date">2022</span> JTMC Universal. All
+                right reserved
             </p>
-         </div>
-      </div>
-   </header>
-   <!-- end of header -->
-
-   <main role="main">
-      <section class="section" id="about">
-         <h1>about us</h1>
-      </section>
-
-      <section class="section" id="events">
-         <h1>events</h1>
-      </section>
-   </main>
-
-   <footer role="doc-footnote">
-      <p>Copyright &copy; <span id="date">2022</span> JTMC Universal. All right reserved</p>
-   </footer>
-   <script src="index.js"></script>
-</body>
-
+        </footer>
+        <script src="index.js"></script>
+    </body>
 </html>
